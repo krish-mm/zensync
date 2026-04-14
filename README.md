@@ -16,6 +16,24 @@ ZenSync is a simple macOS CLI tool to back up and restore Zen Browser profile da
 - Export creates a backup zip from your current Zen profile.
 - Import restores a backup zip back into your Zen profile directory.
 
+## Features
+
+Exports everything in your Zen profile directory.
+- `Profiles`
+- `Workspaces` 
+- `Settings`
+- `Extensions`
+- `Themes`
+- `Plugins`
+- `Customizations`
+- `Preferences`
+- `Tabs`
+- `Pin Tabs`
+- `Folders`
+- `History`
+- `Zen Mods`
+
+
 ## Requirements
 
 - go 1.22 or higher
