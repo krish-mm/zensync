@@ -1,6 +1,6 @@
 # ZenSync
 
-[image.png](./image.png)
+![ZenSync screenshot](./image.png)
 
 ## Disclaimer
 
