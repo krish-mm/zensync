@@ -55,17 +55,6 @@ brew install zensync
 git clone https://github.com/krish-mm/zensync.git
 cd zensync
 go build -o zensync .
-```
-
-Optional: keep the binary in your drive storage and run it directly from that folder.
-
-```bash
-./zensync --help
-```
-
-Optional: install globally so you can run `zensync` from anywhere.
-
-```bash
 sudo cp zensync /usr/local/bin/zensync
 sudo chmod +x /usr/local/bin/zensync
 ```
