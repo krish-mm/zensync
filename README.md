@@ -16,13 +16,19 @@ ZenSync is a simple macOS CLI tool to back up and restore Zen Browser profile da
 - Export creates a backup zip from your current Zen profile.
 - Import restores a backup zip back into your Zen profile directory.
 
+## Requirements
+
+- go 1.22 or higher
+- macOS 10.15 or higher
+- Zen Browser installed
+
 ## Installation
 
 ### Option 1: Homebrew
 
 ```bash
 brew tap krish-mm/tap
-brew install krish-mm/tap/zensync
+brew install zensync
 ```
 
 ### Option 2: Clone and Build
@@ -30,7 +36,7 @@ brew install krish-mm/tap/zensync
 ```bash
 git clone https://github.com/krish-mm/zensync.git
 cd zensync
-go build -o zensync *.go
+go build -o zensync .
 ```
 
 Optional: keep the binary in your drive storage and run it directly from that folder.
